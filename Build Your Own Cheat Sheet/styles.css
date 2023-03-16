@@ -1,0 +1,33 @@
+
+/* Container */
+.container {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.container .information-container {
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+.information-container .heading {
+    font-weight: bold;
+}
+
+.information-container .information {
+    box-sizing: border-box;
+    width: 60%;
+}
+
+.container .spacing {
+    width: 5%;
+}
+
+.container .example-container {
+    box-sizing: border-box;
+    width: 35%;
+    color: white;
+    background-color: black;
+    height: fit-content;
+    padding: 5px;
+}

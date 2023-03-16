@@ -17,6 +17,8 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .brushes {
@@ -34,4 +36,11 @@ h2 {
 p {
     font-weight: bold;
     color: blue;
+}
+
+img {
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
 }
