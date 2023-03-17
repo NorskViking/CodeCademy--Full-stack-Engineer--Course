@@ -22,7 +22,7 @@
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
-    width: 90%;
+    width: 80%;
     border-radius: 20px;
 }
 
@@ -32,19 +32,20 @@
 }
 
 .information-container {
-    flex: 1 1 400px;
+    flex: 1 1 300px;
 }
 
 .spacing {
-    flex: 1 1 40px;
+    flex: 1 1 20px;
 }
 
 .example-container {
-    flex: 0 0 300px;
+    flex: 0 0 400px;
     background-color: black;
     color: white;
     overflow: auto;
     padding: 8px;
+    text-align: left;
 }
 
 .comment-text {
@@ -69,4 +70,16 @@
 
 .indent-five {
     text-indent: 50px;
+}
+
+.token {
+    color: white;
+}
+
+.tag {
+    color: fuchsia;
+}
+
+.comment {
+    color: gray;
 }
