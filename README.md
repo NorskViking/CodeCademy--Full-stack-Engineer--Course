@@ -2,22 +2,22 @@
  Projects from the Codecademy - Fullstack JavaScript Course
 
 ### Full-Stack Engineer Course Progress:
-[ ] Web Development Foundations
-[ ] Building Interactive Websites
-[ ] Front-End Development
-[ ] Back-End Development
-[ ] Full-Stack Development
-[ ] Interview Prep
+- [ ] Web Development Foundations
+- [ ] Building Interactive Websites
+- [ ] Front-End Development
+- [ ] Back-End Development
+- [ ] Full-Stack Development
+- [ ] Interview Prep
 
- ### JavaScript Fullstack - Course Projects:
- [x] Dasmoto's Arts & Crafts
- [ ] Build your own HTML or CSS cheat sheet
- [ ] Flexbox: To-Do App
- [ ] Tea Cozy
- [ ] Tsunami Coffee
- [ ] Company Home Page with Flexbox
- [ ] Responsive Club Website
- [ ] \(more to come)
+### JavaScript Fullstack - Course Projects:
+- [x] Dasmoto's Arts & Crafts
+- [ ] Build your own HTML or CSS cheat sheet
+- [ ] Flexbox: To-Do App
+- [ ] Tea Cozy
+- [ ] Tsunami Coffee
+- [ ] Company Home Page with Flexbox
+- [ ] Responsive Club Website
+- [ ] \(more to come)
 
 This is my project folder for the different portfolio projects, that are given during the
 [Full-stack Engineer Course](https://www.codecademy.com/career-journey/full-stack-engineer) that are provided by [codecademy](https://www.codecademy.com).
