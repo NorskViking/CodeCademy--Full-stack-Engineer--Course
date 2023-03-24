@@ -11,7 +11,7 @@
 
 ### JavaScript Fullstack - Course Projects:
 - [x] Dasmoto's Arts & Crafts
-- [ ] Build your own HTML or CSS cheat sheet
+- [x] Build your own HTML or CSS cheat sheet
 - [ ] Flexbox: To-Do App
 - [ ] Tea Cozy
 - [ ] Tsunami Coffee
