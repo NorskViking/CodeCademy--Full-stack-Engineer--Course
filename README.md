@@ -27,5 +27,5 @@ In this [project](https://www.codecademy.com/journeys/full-stack-engineer/paths/
 
 This Project uses HTML and CSS, to create a minimal store webpage, following an description given by a 'customer'.
 
-## Build your own Cheat Sheet
+## [Build your own Cheat Sheet](https://github.com/NorskViking/CodeCademy-JavaScripFullstack-Course/tree/main/Build%20Your%20Own%20Cheat%20Sheet)
 In this [project](https://www.codecademy.com/journeys/full-stack-engineer/paths/fscj-22-web-development-foundations/tracks/fscj-22-improved-styling-with-css/modules/wdcp-22-build-your-own-cheat-sheet-67e2c82a-2f99-46d9-a17b-1461dc4edee8/projects/independent-project-html-documentation) from the Web Development Foundations part. I create my own 'HTML Cheat Sheet' using HTML and CSS.

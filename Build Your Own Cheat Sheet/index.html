@@ -15,9 +15,13 @@
                 <li><a href="#doctype-decleration">Doctype</a></li>
                 <li><a href="#html-element">HTML-element</a></li>
                 <li><a href="#head-element">Head-Element</a></li>
+                <li><a href="#title-element">Title-Element</a></li>
+                <li><a href="#heading-elements">Heading-Elements</a></li>
             </ul>
         </nav>
+
         <div class="main">
+            
             <!-- Document Type Decleration -->
             <div id="doctype-decleration" class="container">
                 <div class="heading">
@@ -26,7 +30,7 @@
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The document type declaration <span><</span>!DOCTYPE html<span>></span> is required as the first line of an HTML document.
+                            The document type declaration &lt;!DOCTYPE html&gt; is required as the first line of an HTML document.
                             The doctype declaration is an instruction to the browser about what type of document to expect 
                             and which version of HTML is being used, in this case it’s HTML5. 
                         </p>
@@ -37,9 +41,7 @@
                 <div class="example-container">
                     <div class="example-text">
                         <p>
-                            <span class="token"><</span>
-                            <span >!DOCTYPE html</span>
-                            <span class="token">></span>
+                            &lt;!<span class="comment">DOCTYPE html</span>&gt;
                         </p>
                     </div>
                 </div>
@@ -60,19 +62,13 @@
                         </p>
                         <ul>
                             <li>
-                                <span><</span>
-                                <span">p</span>
-                                <span>></span> 
-                                is the opening tag.
+                                &lt;p&gt; is the opening tag.
                             </li>
                             <li>
                                 Hello World! is the content.
                             </li>
                             <li>
-                                <span><</span>
-                                <span>/p</span>
-                                <span>></span>
-                                <span>the closing tag</span>
+                                &lt;/p&gt; the closing tag
                             </li>
                         </ul>
                     </div>
@@ -81,10 +77,8 @@
                 </div>
                 <div class="example-container">
                     <div class="example-text">
-                        <p class="indent-one">
-                            <span class="token"><</span><span class="tag">p</span><span class="token">></span>
-                            Hello World!
-                            <span class="token"><</span><span class="tag">/p</span><span class="token">></span>
+                        <p>
+                            &lt;<span class="tag">p</span>&gt;Hello World!&lt;/<span class="tag">p</span>&gt;
                         </p>
                     </div>
                 </div>
@@ -93,12 +87,12 @@
             <!-- Head Element -->
             <div id="head-element" class="container">
                 <div class="heading">
-                    <h2><span><</span>head<span>></span> Head Element</h2>
+                    <h2>&lt;head&gt; Head Element</h2>
                 </div>
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The <span><</span>head<span>></span> element contains general information about an HTML page 
+                            The &lt;head&gt; element contains general information about an HTML page 
                             that isn’t displayed on the page itself. This information is called metadata and includes things 
                             like the title of the HTML document and links to stylesheets. 
                         </p>
@@ -108,25 +102,27 @@
                 </div>
                 <div class="example-container">
                     <div class="example-text">
-                        <p class="indent-one">&lt;!DOCTYPE html&gt;</p>
-                        <p class="indent-one">&lt;html&gt;</p>
-                        <p class="indent-two">&lt;head&gt;</p>
-                        <p class="indenth-three comment-text">&lt;!-- Metadata is contained in this element --&gt;</p>
-                        <p class="indent-two">&lt;/head&gt;</p>
-                        <p class="indent-one">&lt;/html&gt;</p>
+                        <p class="indent-zero">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p>
+                        <p class="indent-zero">&lt;<span class="tag">html</span>&gt;</p>
+                        <p class="indent-one">&lt;<span class="tag">head</span>&gt;</p>
+                        <p class="indent-two comment">&lt;!-- Metadata is contained in this element --&gt;</p>
+                        <p class="indent-one">&lt;/<span class="tag">head</span>&gt;</p>
+                        <p class="indent-zero">&lt;/<span class="tag">html</span>&gt;</p>
                     </div>
                 </div>
             </div>
 
             <!-- Title Element -->
-            <div id="html-element" class="container">
+            <div id="title-element" class="container">
                 <div class="heading">
-                    <h2>&lt;head&gt; Head Element</h2>
+                    <h2>&lt;title&gt; Title Element</h2>
                 </div>
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The <a>&lt;head&gt;</a> element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets. 
+                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
+                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
+                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
                         </p>
                     </div>
                 </div>
@@ -135,54 +131,28 @@
                 <div class="example-container">
                     <div class="example-text">
                         <div>
-                            <p class="indent-one">&lt;!DOCTYPE html&gt;</p>
-                            <p class="indent-one">&lt;html&gt;</p>
-                            <p class="indent-two">&lt;head&gt;</p>
-                            <p class="indenth-three comment-text">&lt;!-- Metadata is contained in this element--&gt;</p>
-                            <p class="indent-two">&lt;/head&gt;</p>
-                            <p class="indent-one">&lt;/html&gt;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Link Style -->
-            <div id="html-element" class="container">
-                <div class="heading">
-                    <h2>&lt;head&gt; Head Element</h2>
-                </div>
-                <div class="information-container">
-                    <div class="explanation">
-                        <p>
-                            The <a>&lt;head&gt;</a> element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets. 
-                        </p>
-                    </div>
-                </div>
-                <div class="spacing">
-                </div>
-                <div class="example-container">
-                    <div class="example-text">
-                        <div>
-                            <p class="indent-one">&lt;!DOCTYPE html&gt;</p>
-                            <p class="indent-one">&lt;html&gt;</p>
-                            <p class="indent-two">&lt;head&gt;</p>
-                            <p class="indenth-three comment-text">&lt;!-- Metadata is contained in this element--&gt;</p>
-                            <p class="indent-two">&lt;/head&gt;</p>
-                            <p class="indent-one">&lt;/html&gt;</p>
+                            <p class="indent-zero">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p>
+                            <p class="indent-zero">&lt;<span class="tag">html</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">head</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;/<span class="tag">title</span>&gt;</p>
+                            <p class="indent-one">&lt;/<span class="tag">head</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">html</span>&gt;</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Body Element -->
-            <div id="html-element" class="container">
+            <div id="body-element" class="container">
                 <div class="heading">
-                    <h2>&lt;head&gt; Head Element</h2>
+                    <h2>&lt;body&gt; Body Element</h2>
                 </div>
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The <a>&lt;head&gt;</a> element contains general information about an HTML page that isn’t displayed on the page itself. This information is called metadata and includes things like the title of the HTML document and links to stylesheets. 
+                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
+                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
+                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
                         </p>
                     </div>
                 </div>
@@ -191,26 +161,164 @@
                 <div class="example-container">
                     <div class="example-text">
                         <div>
-                            <p class="indent-one">&lt;!DOCTYPE html&gt;</p>
-                            <p class="indent-one">&lt;html&gt;</p>
-                            <p class="indent-two">&lt;head&gt;</p>
-                            <p class="indenth-three comment-text">&lt;!-- Metadata is contained in this element--&gt;</p>
-                            <p class="indent-two">&lt;/head&gt;</p>
-                            <p class="indent-one">&lt;/html&gt;</p>
+                            <p class="indent-zero">&lt;<span class="tag">body</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">h1</span>&gt;A heading title for the webpage&lt;/<span class="tag">h1</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">body</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Heading Elements -->
+            <div id="heading-elements" class="container">
+                <div class="heading">
+                    <h2>&lt;h1&gt;-&lt;h6&gt; Heading Elements</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            HTML can use six different levels of heading elements. 
+                            The heading elements are ordered from the highest level 
+                            &lt;h1&gt; to the lowest level &lt;h6&gt;.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p>&lt;<span class="tag">h1</span>&gt;Breaking News&lt;/<span class="tag">h1</span>&gt;</p>
+                            <p>&lt;<span class="tag">h2</span>&gt;This is the 1st subheading&lt;/<span class="tag">h2</span>&gt;</p>
+                            <p>&lt;<span class="tag">h3</span>&gt;This is the 2nd subheading&lt;/<span class="tag">h3</span>&gt;</p>
+                            <p>&lt;<span class="tag">h4</span>&gt;This is the 3rd subheading&lt;/<span class="tag">h4</span>&gt;</p>
+                            <p>&lt;<span class="tag">h5</span>&gt;This is the 4th subheading&lt;/<span class="tag">h5</span>&gt;</p>
+                            <p>&lt;<span class="tag">h6</span>&gt;This is the 5th subheading&lt;/<span class="tag">h6</span>&gt;</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- HTML Lists Item -->
+            <div id="title-element" class="container">
+                <div class="heading">
+                    <h2>&lt;title&gt; Title Element</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
+                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
+                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p><br>
+                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
+                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Unordered List -->
+            <div id="unordered-list" class="container">
+                <div class="heading">
+                    <h2>&lt;ul&gt; Unordered List Element</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            The &lt;ul&gt; unordered list element is used to create a list of items in no 
+                            particular order. Each individual list item will have a bullet point by default.
+                            <ul>
+                                <li>First bullet point</li>
+                                <li>Second bullet point</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p class="indent-zero">&lt;<span class="tag">ul</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Learn to write HTML&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Learn to write CSS&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">ul</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Ordered List -->
+            <div id="title-element" class="container">
+                <div class="heading">
+                    <h2>&lt;title&gt; Title Element</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
+                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
+                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p><br>
+                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
+                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Div Element -->
-
-            <!-- Heading Elements -->
+            <div id="title-element" class="container">
+                <div class="heading">
+                    <h2>&lt;title&gt; Title Element</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
+                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
+                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
+                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
+                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <!-- Paragraph Element -->
 
