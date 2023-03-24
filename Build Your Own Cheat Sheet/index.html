@@ -17,6 +17,10 @@
                 <li><a href="#head-element">Head-Element</a></li>
                 <li><a href="#title-element">Title-Element</a></li>
                 <li><a href="#heading-elements">Heading-Elements</a></li>
+                <li><a href="#unordered-list">Unordered-List</a></li>
+                <li><a href="#orderedlist">Ordered-List</a></li>
+                <li><a href="#list-element">List-Element</a></li>
+                <li><a href="#div-element">Div-Element</a></li>
             </ul>
         </nav>
 
@@ -199,36 +203,6 @@
                 </div>
             </div>
 
-            <!-- HTML Lists Item -->
-            <div id="title-element" class="container">
-                <div class="heading">
-                    <h2>&lt;title&gt; Title Element</h2>
-                </div>
-                <div class="information-container">
-                    <div class="explanation">
-                        <p>
-                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
-                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
-                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
-                        </p>
-                    </div>
-                </div>
-                <div class="spacing">
-                </div>
-                <div class="example-container">
-                    <div class="example-text">
-                        <div>
-                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p><br>
-                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
-                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
-                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <!-- Unordered List -->
             <div id="unordered-list" class="container">
                 <div class="heading">
@@ -261,16 +235,19 @@
             </div>
 
             <!-- Ordered List -->
-            <div id="title-element" class="container">
+            <div id="ordered-list" class="container">
                 <div class="heading">
-                    <h2>&lt;title&gt; Title Element</h2>
+                    <h2>&lt;ol&gt; Ordered List Element</h2>
                 </div>
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
-                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
-                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
+                            The &lt;ol&gt; ordered list element creates a list of items in sequential order. 
+                            Each list item appears numbered by default.
+                            <ol>
+                                <li>First list item</li>
+                                <li>Second list item</li>
+                            </ol>
                         </p>
                     </div>
                 </div>
@@ -279,28 +256,62 @@
                 <div class="example-container">
                     <div class="example-text">
                         <div>
-                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p><br>
-                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
-                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
-                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
+                            <p class="indent-zero">&lt;<span class="tag">ol</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Learn to write HTML&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Learn to write CSS&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Learn to write JavaScript&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">ol</span>&gt;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HTML Lists Item -->
+            <div id="list-element" class="container">
+                <div class="heading">
+                    <h2>&lt;li&gt; List Item Element</h2>
+                </div>
+                <div class="information-container">
+                    <div class="explanation">
+                        <p>
+                            The &lt;li&gt; list item element create list items inside:
+                            <ol>
+                                <li>Unordered lists &lt;ul&gt;</li>
+                                <li>Ordered list &lt;ol&gt;</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+                <div class="spacing">
+                </div>
+                <div class="example-container">
+                    <div class="example-text">
+                        <div>
+                            <p class="indent-zero">&lt;<span class="tag">ul</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Movies&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Series&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">ul</span>&gt;</p>
+                            <br>
+                            <p class="indent-zero">&lt;<span class="tag">ol</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Turn off computer&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">li</span>&gt;Turn on Computer&lt;/<span class="tag">li</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">ol</span>&gt;</p>
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Div Element -->
-            <div id="title-element" class="container">
+            <div id="div-element" class="container">
                 <div class="heading">
-                    <h2>&lt;title&gt; Title Element</h2>
+                    <h2>&lt;div&gt; Div Element</h2>
                 </div>
                 <div class="information-container">
                     <div class="explanation">
                         <p>
-                            The &lt;title&gt; element contains a text that defines the title of an HTML document. 
-                            The title is displayed in the browser's title bar or tab in which the HTML page is displayed. 
-                            The &lt;title&gt; element can only be contained inside a document's &lt;head&gt; element.
+                            The &lt;div&gt; element is used as a container that divides an HTML document into sections 
+                            and is short for "division". &lt;div&gt; elements can contain flow content such as headings, 
+                            paragraphs, links, images, etc.
                         </p>
                     </div>
                 </div>
@@ -309,12 +320,14 @@
                 <div class="example-container">
                     <div class="example-text">
                         <div>
-                            <p class="indent-one">&lt;!<span class="comment">DOCTYPE html</span>&gt;</p>
-                            <p class="indent-one">&lt;<span class="tag">html</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">head</span>&gt;</p>
-                            <p class="indent-three">&lt;<span class="tag">title</span>&gt;Title of the HTML page&lt;<span class="tag">/title</span>&gt;</p>
-                            <p class="indent-two">&lt;<span class="tag">/head</span>&gt;</p>
-                            <p class="indent-one">&lt;<span class="tag">/html</span>&gt;</p>
+                            <p class="indent-zero">&lt;<span class="tag">div</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">h1</span>&gt;A section of grouped elements&lt;/<span class="tag">h1</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">p</span>&gt;Here's some text for this section&lt;/<span class="tag">p</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">div</span>&gt;</p>
+                            <p class="indent-zero">&lt;<span class="tag">div</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">h1</span>&gt;Second section of grouped elements&lt;/<span class="tag">h1</span>&gt;</p>
+                            <p class="indent-one">&lt;<span class="tag">p</span>&gt;Some text belonging in this section&lt;/<span class="tag">p</span>&gt;</p>
+                            <p class="indent-zero">&lt;/<span class="tag">div</span>&gt;</p>
                         </div>
                     </div>
                 </div>
