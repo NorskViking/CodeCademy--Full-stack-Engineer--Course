@@ -1,5 +1,8 @@
 # CodeCademy- Full-stack Engineer - Course
- Projects from the Codecademy - Fullstack JavaScript Course
+Projects from the Codecademy - Full-Stack Engineer Course
+
+This Codecademy pro course with learning modules, portfolio projects and exams, are designed by codecademy,
+for anyone to become an professional Full-Stack Engineer, with a portfolio of different projects, and an professional certification upon completion.
 
 ### Full-Stack Engineer Course Progress:
 - [ ] Web Development Foundations
@@ -11,7 +14,7 @@
 
 ### JavaScript Fullstack - Course Projects:
 - [x] Dasmoto's Arts & Crafts
-- [ ] Build your own HTML or CSS cheat sheet
+- [x] Build your own HTML or CSS cheat sheet
 - [ ] Flexbox: To-Do App
 - [ ] Tea Cozy
 - [ ] Tsunami Coffee
