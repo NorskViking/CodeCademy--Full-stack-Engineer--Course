@@ -1,0 +1,19 @@
+/* General Style */
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+/* Body */
+
+.container {
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Footer */

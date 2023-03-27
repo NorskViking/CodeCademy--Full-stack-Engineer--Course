@@ -1,0 +1,157 @@
+/* List of Colors */
+
+/* Reds */
+.lightcoral {
+    background-color: lightcoral;
+    color: black;
+}
+
+.indiared {
+    background-color: indianred;
+    color: black;
+}
+
+.red {
+    background-color: red;
+    color: white
+}
+
+.firebrick {
+    background-color: firebrick;
+    color: white;
+}
+
+.maroon {
+    background-color: maroon;
+    color: white;
+}
+
+/* yellows */
+.lightyellow {
+    background-color: lightyellow;
+    color: black;
+}
+
+.khaki {
+    background-color: khaki;
+    color: black;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.gold {
+    background-color: gold;
+    color: black;
+}
+
+.darkgoldenrod {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+/* Greens */
+.palegreen {
+    background-color: palegreen;
+    color: black;
+}
+
+.lime {
+    background-color: lime;
+    color: black;
+}
+
+.forestgreen {
+    background-color: forestgreen;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.darkgreen {
+    background-color: darkgreen;
+    color: white;
+}
+
+/* Blues */
+.lightskyblue {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.skyblue {
+    background-color: skyblue;
+    color: white;
+}
+
+.cornflowerblue {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.darkblue {
+    background-color: darkblue;
+    color: white;
+}
+
+/* whites */
+.white {
+    background-color: white;
+    color: black;
+}
+
+.whitesmoke {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.snow {
+    background-color: snow;
+    color: black;
+}
+
+.antiquewhite {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.ivory {
+    background-color: ivory;
+    color: black;
+}
+
+/* Grays */
+.lightgray {
+    background-color: lightgray;
+    color: black;
+}
+
+.silver {
+    background-color: silver;
+    color: black;
+}
+
+.gray {
+    background-color: gray;
+    color: black;
+}
+
+.dimgray {
+    background-color: dimgray;
+    color: white;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
