@@ -1,3 +1,35 @@
+@font-face {
+    font-family: 'Bad Script', cursive;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    src: url('./google-fonts/Bad_Script/BadScript-Regular.ttf') format('truetype'),
+         url('./google-fonts/Fasthand/Fasthand-Regular.ttf') format('truetype'),
+         url('./google-fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype'),
+         url('./google-fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('./google-fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf') format('truetype'),
+         url('./google-fonts/Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf') format('truetype'),
+         url('./google-fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+         url('./google-fonts/Ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+         url('./google-fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype')
+}
+
+.font-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: left;
+}
+
+.font-panel {
+    line-height: 1;
+    margin: auto;
+    grid-column: auto;
+}
+
 .font-name {
     font-size: 20px;
     text-decoration: underline;
@@ -5,12 +37,35 @@
 
 .regular {
     font-style: normal;
+    font-size: 14px;
 }
 
 .italic {
     font-style: italic;
+    font-size: 14px;
 }
 
 .bold {
     font-weight: 700;
+    font-size: 14px;
+}
+
+.badscript {
+    font-family: 'Bad Script';
+}
+
+.fasthand {
+    font-family: 'Fasthand';
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
+
+.robotomono {
+    font-family: 'Roboto Mono';
+}
+
+.ubuntu {
+    font-family: 'Ubuntu';
 }
