@@ -1,157 +1,234 @@
 /* List of Colors */
+.color-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(80px, auto);
+    text-align: center;
+}
 
-/* Reds */
+.color-name, .color-hex {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.color-panel {
+    border: 1px solid black;
+}
+
+/* Reds - Row 1 */
 .lightcoral {
     background-color: lightcoral;
     color: black;
+    grid-column: 1;
+    grid-row: 1;
 }
 
 .indiared {
     background-color: indianred;
     color: black;
+    grid-column: 2;
+    grid-row: 1;
 }
 
 .red {
     background-color: red;
     color: white
+    grid-column: 3;
+    grid-row: 1;
 }
 
 .firebrick {
     background-color: firebrick;
     color: white;
+    grid-column: 4;
+    grid-row: 1;
 }
 
 .maroon {
     background-color: maroon;
     color: white;
+    grid-column: 5;
+    grid-row: 1;
 }
 
-/* yellows */
+/* yellows - Row 2 */
 .lightyellow {
     background-color: lightyellow;
     color: black;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .khaki {
     background-color: khaki;
     color: black;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .yellow {
     background-color: yellow;
     color: black;
+    grid-column: 3;
+    grid-row: 2;
 }
 
 .gold {
     background-color: gold;
     color: black;
+    grid-column: 4;
+    grid-row: 2;
 }
 
 .darkgoldenrod {
     background-color: darkgoldenrod;
     color: black;
+    grid-column: 5;
+    grid-row: 2;
 }
 
-/* Greens */
+/* Greens - Row 3 */
 .palegreen {
     background-color: palegreen;
     color: black;
+    grid-column: 1;
+    grid-row: 3;
 }
 
 .lime {
     background-color: lime;
     color: black;
+    grid-column: 2;
+    grid-row: 3;
 }
 
 .forestgreen {
     background-color: forestgreen;
     color: white;
+    grid-column: 3;
+    grid-row: 3;
 }
 
 .green {
     background-color: green;
     color: white;
+    grid-column: 4;
+    grid-row: 3;
 }
 
 .darkgreen {
     background-color: darkgreen;
     color: white;
+    grid-column: 5;
+    grid-row: 3;
 }
 
-/* Blues */
+/* Blues - Row 4 */
 .lightskyblue {
     background-color: lightskyblue;
     color: white;
+    grid-column: 1;
+    grid-row: 4;
 }
 
 .skyblue {
     background-color: skyblue;
     color: white;
+    grid-column: 2;
+    grid-row: 4;
 }
 
 .cornflowerblue {
     background-color: cornflowerblue;
     color: white;
+    grid-column: 3;
+    grid-row: 4;
 }
 
 .blue {
     background-color: blue;
     color: white;
+    grid-column: 4;
+    grid-row: 4;
 }
 
 .darkblue {
     background-color: darkblue;
     color: white;
+    grid-column: 5;
+    grid-row: 4;
 }
 
-/* whites */
+/* whites - Row 5 */
 .white {
     background-color: white;
     color: black;
+    grid-column: 1;
+    grid-row: 5;
 }
 
 .whitesmoke {
     background-color: whitesmoke;
     color: black;
+    grid-column: 3;
+    grid-row: 5;
 }
 
 .snow {
     background-color: snow;
     color: black;
+    grid-column: 2;
+    grid-row: 5;
 }
 
 .antiquewhite {
     background-color: antiquewhite;
     color: black;
+    grid-column: 5;
+    grid-row: 5;
 }
 
 .ivory {
     background-color: ivory;
     color: black;
+    grid-column: 4;
+    grid-row: 5;
 }
 
-/* Grays */
+/* Grays - Row 6 */
 .lightgray {
     background-color: lightgray;
     color: black;
+    grid-column: 1;
+    grid-row: 6;
 }
 
 .silver {
     background-color: silver;
     color: black;
+    grid-column: 2;
+    grid-row: 6;
 }
 
 .gray {
     background-color: gray;
     color: black;
+    grid-column: 3;
+    grid-row: 6;
 }
 
 .dimgray {
     background-color: dimgray;
     color: white;
+    grid-column: 4;
+    grid-row: 6;
 }
 
 .black {
     background-color: black;
     color: white;
+    grid-column: 5;
+    grid-row: 6;
 }
