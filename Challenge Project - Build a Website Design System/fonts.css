@@ -1,0 +1,16 @@
+.font-name {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
