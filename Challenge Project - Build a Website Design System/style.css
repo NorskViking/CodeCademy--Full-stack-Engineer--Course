@@ -16,5 +16,33 @@ header {
     margin: 10px auto;
 }
 
+/* Icons */
+.icon-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: left;
+}
 
-/* Footer */
+.icon-panel {
+    grid-column: auto;
+}
+
+.material-icons {
+    color: black
+}
+
+#small-icon {
+    font-size: 14px;
+}
+
+#medium-icon {
+    font-size: 36px;
+}
+
+#large-icon {
+    font-size: 48px;
+    color: red;
+}

@@ -15,7 +15,7 @@ for anyone to become an professional Full-Stack Engineer, with a portfolio of di
 ### JavaScript Fullstack - Course Projects:
 - [x] Dasmoto's Arts & Crafts
 - [x] Build your own HTML or CSS cheat sheet
-- [ ] Build your own Website Design System
+- [x] Build your own Website Design System
 - [ ] Flexbox: To-Do App
 - [ ] Tea Cozy
 - [ ] Tsunami Coffee
