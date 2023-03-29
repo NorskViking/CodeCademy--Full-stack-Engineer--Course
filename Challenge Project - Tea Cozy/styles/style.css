@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+p, li {
+    font-size: 22px;
+}
+
+header {
+    height: 69px;
+    display: inline-flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo-img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.mission {
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 69px;
+}
+
+.featured-tea img {
+    max-height: 200px;
+    max-width: 300px;
+}
