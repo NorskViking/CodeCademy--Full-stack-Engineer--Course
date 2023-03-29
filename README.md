@@ -16,7 +16,6 @@ for anyone to become an professional Full-Stack Engineer, with a portfolio of di
 - [x] Dasmoto's Arts & Crafts
 - [x] Build your own HTML or CSS cheat sheet
 - [x] Build your own Website Design System
-- [ ] Flexbox: To-Do App
 - [ ] Tea Cozy
 - [ ] Tsunami Coffee
 - [ ] Company Home Page with Flexbox
