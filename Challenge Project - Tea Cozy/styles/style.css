@@ -3,6 +3,18 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: visible;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 p, li {
@@ -11,10 +23,14 @@ p, li {
 
 header {
     height: 69px;
+    width: 100%;
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     position: fixed;
     top: 0;
+    border-bottom: 1px solid seashell;
+    column-gap: 10px;
 }
 
 .logo-img {
@@ -22,20 +38,62 @@ header {
     margin-left: 10px;
 }
 
+.navbar {
+    align-items: flex-end;
+}
+
 .navbar li {
     display: inline-block;
     list-style: none;
     text-decoration: underline;
+    text-indent: 20px;
 }
 
 .mission {
-    max-width: 1200px;
+    width: 1200px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 69px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-statement {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+    position: absolute;
+    margin: auto;
+}
+
+.mission-statement h2 {
+    background-color: black;
+}
+
+.mission-img {
+    height: 700px;
+    width: 1200px;
 }
 
 .featured-tea img {
     max-height: 200px;
     max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.teacozy {
+    height: 200px;
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
