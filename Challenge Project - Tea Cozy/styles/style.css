@@ -21,25 +21,32 @@ p, li {
     font-size: 22px;
 }
 
+/* Navbar */
+
 header {
+    background-color: black;
     height: 69px;
     width: 100%;
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     position: fixed;
+    justify-content: space-between;
     top: 0;
     border-bottom: 1px solid seashell;
     column-gap: 10px;
+    z-index: 1002;
 }
 
 .logo-img {
     height: 50px;
     margin-left: 10px;
+    align-items: flex-start;
 }
 
 .navbar {
     align-items: flex-end;
+    margin-right: 20px;
 }
 
 .navbar li {
@@ -49,43 +56,98 @@ header {
     text-indent: 20px;
 }
 
+/* Mission */
+
 .mission {
     width: 1200px;
+    height: 700px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 69px;
-    position: relative;
+    display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
 }
 
 .mission-statement {
-    background-color: black;
+    background: black;
+    opacity: 1;
     text-align: center;
-    width: 1200px;
+    width: 100%;
     position: absolute;
-    margin: auto;
+    margin: 0 auto;
+    z-index: 1001;
+    align-self: center;
+    justify-content: center;
 }
 
-.mission-statement h2 {
-    background-color: black;
+/* Featured Tea */
+
+.featured-tea {
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 1000px;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.mission-img {
-    height: 700px;
-    width: 1200px;
+.featured-title {
+    align-self: stretch;
+    text-align: center;
+}
+
+.featured {
+    justify-content: space-around;
+}
+
+.featured p {
+    text-align: center;
+    margin-top: 10px;
 }
 
 .featured-tea img {
     max-height: 200px;
     max-width: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    column-gap: 10px;
 }
 
+/* Locations */
+.locations {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    z-index: 1000;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+.location-panel {
+    display: inline-flex;
+    align-content: center;
+    align-self: center;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    flex-flow: row;
+    align-self: center;
+    z-index: 1001;
+    opacity: 1;
+}
+
+.location h3 {
+    opacity: 0.9;
+}
+
+/* Footer */
 .teacozy {
     height: 200px;
     text-align: center;
