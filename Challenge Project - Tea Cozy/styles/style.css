@@ -99,6 +99,8 @@ header {
 .featured-title {
     align-self: stretch;
     text-align: center;
+    place-content: center start;
+    width: 1000px;
 }
 
 .featured {
@@ -116,31 +118,42 @@ header {
 }
 
 /* Locations */
-.locations {
+.loactions {
     width: 1200px;
     height: 500px;
     display: flex;
     overflow: hidden;
     z-index: 1000;
-    text-align: center;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 .location-panel {
-    display: inline-flex;
-    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 1001;
     align-self: center;
+    justify-content: center;
+}
+
+.location-title {
+    justify-self: auto;
+    background: none;
+    margin-bottom: 15px;
+    z-index: 1001;
 }
 
 .location {
     width: 300px;
-    background-color: black;
+    background: black;
+    opacity: 1;
     text-align: center;
     flex-flow: row;
     align-self: center;
     z-index: 1001;
-    opacity: 1;
 }
 
 .location h3 {
