@@ -3,9 +3,11 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    /*
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    */
 }
 
 body {
@@ -58,7 +60,7 @@ header {
 
 /* Mission */
 
-.mission {
+#mission {
     width: 1200px;
     height: 700px;
     margin-left: 20px;
@@ -86,25 +88,34 @@ header {
 
 /* Featured Tea */
 
-.featured-tea {
+#featured-tea {
     display: flex;
-    row-gap: 10px;
-    column-gap: 10px;
-    width: 1000px;
-    align-content: space-between;
-    justify-content: center;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    max-width: 1000px;
+    margin-bottom: 50px;
 }
 
 .featured-title {
-    align-self: stretch;
     text-align: center;
-    place-content: center start;
     width: 1000px;
+}
+
+.teas {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .featured {
     justify-content: space-around;
+    height: 240px;
+    width: 300px;
+    margin: 0px 10px;
+    flex: auto;
 }
 
 .featured p {
@@ -112,13 +123,13 @@ header {
     margin-top: 10px;
 }
 
-.featured-tea img {
+.featured img {
     max-height: 200px;
     max-width: 300px;
 }
 
 /* Locations */
-.loactions {
+#loactions {
     width: 1200px;
     height: 500px;
     display: flex;
