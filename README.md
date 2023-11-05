@@ -16,8 +16,8 @@ for anyone to become an professional Full-Stack Engineer, with a portfolio of di
 - [x] Dasmoto's Arts & Crafts
 - [x] Build your own HTML or CSS cheat sheet
 - [x] Build your own Website Design System
-- [ ] Tea Cozy
-- [ ] Tsunami Coffee
+- [x] Tea Cozy
+- [ ] Fotomatic
 - [ ] Company Home Page with Flexbox
 - [ ] Responsive Club Website
 - [ ] \(more to come)
