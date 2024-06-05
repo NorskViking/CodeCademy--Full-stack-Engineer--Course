@@ -9,11 +9,23 @@
     <body>
         <h1>Random Jokes</h1>
         <div class="display">
-            <i></i>
             <!-- Joke Display -->  
         </div>
         <button onclick="getJoke()">New Joke</button>
 
-        <script src="./jokes.js"></script>
+        <script type="module" src="./jokes.js">
+            //import { getJoke } from './jokes.js';
+            //document.getElementById('display').innerHTML = getJoke();
+            //getJoke()
+            
+            import data from './jokes.json';
+
+            function getJoke() {
+                const jokes = data;
+                const rand = Math.floor(Math.random() * jokes.length);
+                const text = `"${jokes[rand].joke}"`
+                document.getElementById('display').innerHTML = text;
+            }
+        </script>
     </body>
 </html>

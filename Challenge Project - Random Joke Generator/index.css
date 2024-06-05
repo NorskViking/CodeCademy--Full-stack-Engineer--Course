@@ -1,0 +1,5 @@
+.body {
+    flex: auto;
+    align-items: center;
+    place-content: center;
+}
