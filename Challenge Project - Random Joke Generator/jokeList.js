@@ -1,4 +1,4 @@
-[
+const jokes = [
     {
         "joke": "A Swede, a Dane, and a Norwegian are on a vacation in Italy. They get lost and can't find their way back to their hotel. The Swede pulls out his phone and tries to use a map app, but there's no signal. The Dane starts panicking and yelling for help. The Norwegian calmly sits down on a bench and smiles. The Swede and Dane ask him why he's so relaxed. The Norwegian says, 'Relax? I'm not lost. I'm on an adventure!'"
     },
@@ -264,3 +264,5 @@
         "joke": "Why did the router and modem fall in love? They had a great connection."
     }
 ]
+
+export default jokes;

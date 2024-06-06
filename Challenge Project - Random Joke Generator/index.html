@@ -13,12 +13,12 @@
         </div>
         <button onclick="getJoke()">New Joke</button>
 
-        <script type="module" src="./jokes.js">
+        <script type="module" src="jokes.js">
             //import { getJoke } from './jokes.js';
             //document.getElementById('display').innerHTML = getJoke();
             //getJoke()
             
-            import data from './jokes.json';
+            import data from 'jokes.json';
 
             function getJoke() {
                 const jokes = data;
